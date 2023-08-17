@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Weather App using HTML CSS and Javascript | WebStylePress</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="weather-container">
+    <input type="text" id="city" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+    <div class="weather-info">
+      <h3 id="location"></h3>
+      <p id="temperature"></p>
+      <p id="feelslike"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+      <p id="condition"></p>
+    </div>
+  </div>
+  
+  <script src="script.js" defer></script>
+</body>
+</html>

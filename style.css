@@ -1,0 +1,25 @@
+body {
+  font-size: 22px;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-info {
+  margin: 20px;
+  display: none;
+  background-color: #eee;
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
